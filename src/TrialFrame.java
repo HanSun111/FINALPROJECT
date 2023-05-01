@@ -18,5 +18,7 @@ public class TrialFrame extends JFrame {
 
         JLabel l = new JLabel();
         l.setText("New Gui who dis?");
+        l.setForeground(new Color(0));
+        //l.setFont();
     }
 }
