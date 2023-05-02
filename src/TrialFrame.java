@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 
 public class TrialFrame extends JFrame {
     TrialFrame(){
@@ -13,12 +14,6 @@ public class TrialFrame extends JFrame {
         //ImageIcon icon = new ImageIcon(); create image icon
         // frame.setIconImage(icon.getImage);
 
-        this.getContentPane().setBackground(new Color(0, 0, 0));
-
-
-        JLabel l = new JLabel();
-        l.setText("New Gui who dis?");
-        l.setForeground(new Color(0));
-        //l.setFont();
+        this.getContentPane().setBackground(new Color(0));
     }
 }
